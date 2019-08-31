@@ -20,7 +20,7 @@
     <context:component-scan base-package="com.xiaoyuan.service"/>
 
     <!-- 2.aop面向切面编程，切面就是切入点和通知的组合-->
-    <!--这里用到了数据源：而数据源我们配置在applicationContext-dao.xml中所有我们需要引入该配置文件-->
+    <!-- 这里用到了数据源：而数据源我们配置在applicationContext-dao.xml中所有我们需要引入该配置文件-->
     <import resource="applicationContext-dao.xml"/>
 
     <!-- 配置事务管理器-->
