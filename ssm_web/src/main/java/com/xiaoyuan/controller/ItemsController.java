@@ -20,4 +20,8 @@ public class ItemsController {
         model.addAttribute("item", items);
         return "itemDetail";
     }
+
+    public static void main(String[] args) {
+        System.out.println("mmmmmmmmmmmmmmmmmmmmmmmm");
+    }
 }
